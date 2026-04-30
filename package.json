@@ -1,0 +1,61 @@
+{
+  "name": "@epoch-sui/sdk",
+  "version": "0.1.0",
+  "description": "TypeScript SDK for integrating the Epoch vesting protocol on Sui",
+  "author": "Epoch <info@epochsui.com>",
+  "license": "MIT",
+  "keywords": [
+    "sui",
+    "vesting",
+    "epoch",
+    "defi",
+    "typescript",
+    "web3"
+  ],
+  "homepage": "https://epochsui.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/epochsui/sdk"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./components": {
+      "types": "./dist/components.d.ts",
+      "import": "./dist/components.mjs",
+      "require": "./dist/components.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "@mysten/sui": ">=1.0.0",
+    "react": ">=17.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@mysten/sui": "^1.21.0",
+    "@types/react": "^19.2.14",
+    "esbuild": "^0.28.0",
+    "tsup": "^8.3.0",
+    "typescript": "^5.7.0"
+  }
+}
