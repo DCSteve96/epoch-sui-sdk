@@ -307,5 +307,6 @@ import type {
 - **App** — [epochsui.com](https://epochsui.com)
 - **Docs** — [epochsui.com/docs](https://epochsui.com/docs)
 - **Developer docs** — [epochsui.com/docs#sdk](https://epochsui.com/docs#sdk)
+- **GitHub** — [github.com/DCSteve96/epoch-sui-sdk](https://github.com/DCSteve96/epoch-sui-sdk)
 - **X** — [@epochsui](https://x.com/epochsui)
 - **License** — MIT

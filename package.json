@@ -15,7 +15,7 @@
   "homepage": "https://epochsui.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/epochsui/sdk"
+    "url": "https://github.com/DCSteve96/epoch-sui-sdk"
   },
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
