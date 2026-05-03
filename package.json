@@ -1,6 +1,6 @@
 {
   "name": "@epoch-sui/sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "TypeScript SDK for integrating the Epoch vesting protocol on Sui",
   "author": "Epoch <info@epochsui.com>",
   "license": "MIT",
