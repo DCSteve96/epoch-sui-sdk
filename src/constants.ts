@@ -7,17 +7,17 @@ export const CLOCK_ID =
 /** Mainnet deployment */
 export const MAINNET_CONFIG: EpochNetworkConfig = {
   packageId:
-    '0x3d3dc872c6f62b344ab182810b6ec4b04bac1d9b1b1572867f9002a7e4d2edde',
+    '0x848cb7edf8b5f7650b3188dec459394472c8ccf206a031497bf55fe40c165da2',
   treasuryId:
-    '0x3491507049854f0e001ac3ef24532287b6da1f314e5b8599695e187a7c7e5250',
+    '0x31bd863db14dd552a28f85641888b7ddc3a4866c4ffde286b30eaf7ac2841553',
 }
 
 /** Testnet deployment */
 export const TESTNET_CONFIG: EpochNetworkConfig = {
   packageId:
-    '0xad485a6f7c5a9c0758533df421e21da35da8fe1fb3f6919846703643bd4bc036',
+    '0xc1427dd16f3d6ee090d48b24fc2cdb3effb4d28898504e742987f4eddb61118c',
   treasuryId:
-    '0x08bb6ecbed70229bb6f68955e55714edbebea9fd2ba59a03b55a8dc2ef4bc0be',
+    '0xaa32f12e76f17d2a78e99c0f7531a55d55aab9750670f2d25b1e8704ce06920a',
 }
 
 /** Convenience map — index by network string */
